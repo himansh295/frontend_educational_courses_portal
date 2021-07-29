@@ -1,0 +1,52 @@
+{
+  "courses": [
+    {
+      "name": "The Complete React Developer Course",
+      "author": "John",
+      "price": 8990,
+      "discount": 10,
+      "check" : 1,
+      "tags": ["React", "ReactHooks"]
+    },
+    {
+      "name": "Build Responsive Websites with HTML5 and CSS",
+      "author": "Terry",
+      "price": 1090,
+      "discount": 7.5,
+      "check" : 2,
+      "tags": ["Responsive", "HTML"]
+    },
+    {
+      "name": "Tata MacGrawhill",
+      "author": "Andrew",
+      "price": 850,
+      "discount": 9,
+      "check" : 3,
+      "tags": ["Maths", "Physics"]
+    },
+    {
+      "name": "Let us C",
+      "author": "Rick Collins",
+      "price": 550,
+      "discount": 5,
+      "check" : 4,
+      "tags": ["C", "C++"]
+    },
+    {
+      "name": "Tata Science Learning",
+      "author": "Jayprakash",
+      "price": 1050,
+      "discount": 4,
+      "check" : 5,
+      "tags": ["General Knowledge"]
+    },
+    {
+      "name": "DS : Coreman",
+      "author": "Coreman",
+      "price": 1500,
+      "discount": 15,
+      "check" : 6,
+      "tags": ["Data Structures", "Algorithm"]
+    }
+  ]
+}

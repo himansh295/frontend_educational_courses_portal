@@ -1,0 +1,57 @@
+.shoppin-Cart-Area {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  grid-template-areas: "shopping-CardCourseArea shopping-CardCartArea";
+}
+
+.shopping-CardCourseArea {
+  grid-area: shopping-CardCourseArea;
+  margin-top: 3em;
+}
+
+.shopping-CardCartArea {
+  grid-area: shopping-CardCartArea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid black;
+  margin: 3rem;
+  height: 15em;
+  font-family: normal normal 600 16pt/19pt Montserrat;
+  text-align: center;
+}
+
+.shopping-CardCartArea > button {
+  margin-left: 4.5em;
+  margin-bottom: 2em;
+  /* height: 5em; */
+  width: 366pt;
+  height: 51pt;
+  background: transparent no-repeat padding-box;
+  background-color: #ff6738;
+  opacity: 1;
+  font-size: large;
+}
+
+.shopping-CardTemplate {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin-bottom: 1em;
+}
+
+.shopping-CardTemplate-1 {
+  display: flex;
+}
+
+.shopping-CardTemplate-2 {
+  display: flex;
+  margin-right: 2em;
+}
+
+.Recommend-course {
+  border: 3px solid black;
+  padding: 2px;
+  margin-bottom: 3em;
+}

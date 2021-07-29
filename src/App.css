@@ -1,0 +1,304 @@
+header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  box-shadow: 0pt 3pt 6pt #00000029;
+  opacity: 1;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerMain {
+  padding-bottom: 3px;
+}
+
+.headerContent {
+  margin-right: 20pt;
+}
+
+.headerlogo {
+  margin-top: 5pt;
+  margin-left: 5pt;
+  width: 100pt;
+  height: 30pt;
+}
+
+.headerCourse {
+  margin-top: 10pt;
+
+  font: normal normal bold 16pt/19pt Montserrat;
+  letter-spacing: 0pt;
+  color: #080808;
+  opacity: 1;
+}
+
+.headerWishlist {
+  margin-top: 10pt;
+  font: normal normal 300 16pt/19pt Montserrat;
+  letter-spacing: 0pt;
+  color: #080808;
+  opacity: 1;
+}
+
+.headerCart {
+  margin-top: 10pt;
+
+  width: 24pt;
+  height: 23pt;
+}
+
+.headerProfile {
+  margin-top: 10pt;
+  width: 24pt;
+  height: 24pt;
+}
+
+body {
+  margin: 0;
+}
+
+.main-container {
+  margin-top: 5px;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: 0 2em 0 2em;
+}
+
+.Discover {
+  background-color: black;
+  color: white;
+}
+
+.discoverText {
+  margin-left: 2em;
+}
+
+.CardArea {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  grid-template-areas: "CardCourseArea CardCartArea";
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.CardCourseArea {
+  grid-area: CardCourseArea;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardCourseAreaTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardCartArea {
+  grid-area: CardCartArea;
+  display: flex;
+  margin-left: 1em;
+}
+
+.CardSearchContainer button {
+  background: #ff6738;
+  border: none;
+  cursor: pointer;
+  /* height: -webkit-fill-available; */
+  /* margin-top: 1em; */
+  width: 4em;
+  height: 3em;
+}
+
+.CardSearchContainer button img {
+  width: 2em;
+  height: 1.5em;
+  /* padding: 2px; */
+}
+
+.CardSearchBar {
+  display: flex;
+}
+
+.CardTemplate {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 9px 17px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 9px 17px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 9px 17px -6px rgba(0, 0, 0, 0.75);
+  border: 2px solid black;
+  margin-bottom: 1em;
+}
+
+.CardCourseNameandButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.tools > ul {
+  /* padding: 13px 22px 12px 21px;
+    margin-right: 10px;
+    border-color: #f4f4f5; */
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.issues-button {
+  padding: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: #ff6738;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+  font: normal normal medium 12pt/15pt Montserrat;
+  letter-spacing: 0pt;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.PriceDiscount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PriceDiscount > button {
+  background-color: #ff6738;
+
+  margin-right: 2px;
+  text-align: center;
+  font: normal normal medium 12pt/15pt Montserrat;
+  letter-spacing: 0pt;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: 1.5em;
+  height: 3em;
+  margin-top: 1.5em;
+}
+
+.CardImgNameTools {
+  display: flex;
+}
+
+.CardImgNameTools > img {
+  width: 30pt;
+  height: 30pt;
+  margin: 1em;
+}
+
+.CardCartBox {
+  box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+  height: 600px;
+
+  width: 33.5rem;
+  display: grid;
+  grid-template-rows: 17% 66% 17%;
+  grid-template-columns: auto;
+  grid-template-areas: "CardCartBoxHeader" "CardCartBoxItems" "CardCartBoxTotalPrice";
+}
+
+.CardCartBoxHeader {
+  grid-area: CardCartBoxHeader;
+}
+
+.CardCartBoxItems {
+  grid-area: CardCartBoxItems;
+  overflow: auto;
+}
+
+.CardCartBoxTotalPrice {
+  grid-area: CardCartBoxTotalPrice;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid black;
+}
+
+.dd-flex {
+  display: flex;
+}
+
+.text-right {
+  text-align: right;
+}
+.p-14 {
+  padding: 14px;
+}
+
+/* --------------------------------- */
+
+.dropbtn {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  /* padding: 16px; */
+  font-size: 16px;
+  /* border: none; */
+  cursor: pointer;
+  margin-top: 1em;
+  margin-left: 0em;
+  width: 10em;
+  height: 2.5em;
+  /* margin-bottom: 1em; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 0.5em;
+  width: 12em;
+  height: 4em;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  width: 8.1em;
+  height: 2.5em;
+  text-decoration: none;
+  display: block;
+  width: 12em;
+  height: 4em;
+  margin-left: 0em;
+  margin-top: 0em;
+  background-color: coral;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.PaginationButton {
+  background-color: #ff6738;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0;
+}
